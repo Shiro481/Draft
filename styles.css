@@ -10,6 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100vh;  
     
 }
 
@@ -26,13 +28,25 @@ body{
     align-items: center;
 }
 .form-headline{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .form-headline h1{
-    
+    font-size: 40px;
+    font-weight: 700;
+    color:#113F67;
+    padding:0;
+    margin:0;
 }
 .form-headline p{
-    
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: normal;
+    padding:0;
+     margin:0;
 }
 h2{
     margin-top:57px;
@@ -43,11 +57,40 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:16px;
 }
 .login-form input{
+    width:352px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border:none;
+    border-bottom: 1px solid #7B7B7B;
+    outline: none;
+}
+.sub-login-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:352px;
+    margin-top: 20px;
+}
+.sub-login-form p,.sub-login-form a{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: normal;
+    padding:0;
+    margin:0;
     
 }
 .login-form button{
-    
+    width: 160px;
+    height: 32px;   
+    border-radius: 8px;
+    background: #58A0C8;
+    color: #fff;
+    border:none;
+    margin-top: 69px;
 }
 
