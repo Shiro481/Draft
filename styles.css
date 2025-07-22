@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(0deg, #113F67 0%, #549AD4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-wrapper{
+    background-color: #fff;
+    width: 554px;
+    height: 554px;
+    margin-top: 240px;
+    margin-bottom: 240px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-headline{
+    
+}
+.form-headline h1{
+    
+}
+.form-headline p{
+    
+}
+h2{
+    margin-top:57px;
+    margin-bottom:34px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-form input{
+    
+}
+.login-form button{
+    
+}
+
