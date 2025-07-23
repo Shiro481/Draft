@@ -51,6 +51,12 @@ body{
 h2{
     margin-top:57px;
     margin-bottom:34px;
+    color: #002341;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .login-form{
     display: flex;
@@ -74,15 +80,32 @@ h2{
     justify-content: space-between;
     align-items: center;
     width:352px;
-    margin-top: 20px;
+    margin-top: 4px;
 }
-.sub-login-form p,.sub-login-form a{
+.sub-login-form a{
     font-size: 11px;
     font-weight: 400;
     line-height: normal;
     padding:0;
     margin:0;
     
+}
+.remember-check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.remember-check input{
+    width: 16px;
+    height: 16px;
+}
+.remember-check label{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: normal;
+    padding:0;
+    margin:0;
 }
 .login-form button{
     width: 160px;
